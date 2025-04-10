@@ -48,3 +48,69 @@
   ```bash
   getent group
   ```
+# Modify Existing user
+- Change UID of local user
+  ```bash
+  usermod -u <UID> <username>
+  ```
+- User add in Secondary Group
+  ```bash
+  usermod -G <group_name> <username>
+  ```
+  OR
+  ```bash
+  gpasswd -a <username> <groupname>
+  ```
+  Multiple users add in a group
+  ```bash
+  gpasswd -M <username>,<user2>,<user3> <groupname>
+  ```
+  Delete user from group
+  ```bash
+  gpasswd -d <username> <groupname>
+  ```
+ - User add in primary Group
+  ```bash
+  usermod -g <group_name> <username>
+  ```
+ - Add Comment to username
+  ```bash
+  usermod -c "Write_a_comment_here" <username>
+  ```  
+ - Add user to multiple groups
+  ```bash
+  usermod -aG <groupname> <username>
+  ```
+ - change the user shell
+   no login shell 
+  ```bash
+  usermod -s /sbin/nologin
+  ```
+  login shell
+  ```bash
+  usermod -s /bin/bash <username>
+  ```
+ - Assgin UID while adding a new user
+  ```bash
+  useradd -u <UID> <username>
+  ```
+ - Chnage shell while adding a new user
+  ```bash
+  useradd -s /sbin/nologin <username>
+  ```
+ - Change the home directory path of a new user
+  ```bash
+  useradd -d <path> <username>
+  ```
+ - 
+  ```bash
+  
+  ```
+ - 
+  ```bash
+  
+  ```
+ - 
+  ```bash
+  
+  ```
