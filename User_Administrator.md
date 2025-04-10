@@ -1,5 +1,34 @@
-# User Administrator Commands
-
+# User Administrator
+## User Database
+- Hold user information
+  ```bash
+  /etc/passwd 
+  ```
+- Hold group information
+  ```bash
+  /etc/group 
+  ```
+- Hold password information of user
+  ```bash
+  /etc/shadow
+  ```
+- Hold group password information
+  ```bash
+  /etc/gshadow 
+  ```
+- User home directory
+  ```bash
+  /home
+  ```
+- User mailing files
+  ```bash
+  /var/spool/mail 
+  ```
+- User skel data copy (.bashrc .bash_profile, .bash_logout)
+  ```bash
+  /etc/skel
+  ```
+# User Administration Commands
 - User add
   ```bash
   useradd <username>
@@ -100,16 +129,4 @@
 - Change the home directory path of a new user
   ```bash
   useradd -d <path> <username>
-  ```
-- 
-  ```bash
-  
-  ```
-- 
-  ```bash
-  
-  ```
-- 
-  ```bash
-  
   ```
