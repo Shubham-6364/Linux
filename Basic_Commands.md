@@ -100,7 +100,71 @@
   rm -rf *
   ```
 
+- Create a file  
+  ```bash
+  touch <filename>
+  ```
 
+- Create multiple files  
+  ```bash
+  touch file{1..10}
+  ```
+
+- Create a Directory  
+  ```bash
+  mkdir <directory_name>
+  ```
+
+- Create a Complete path  
+  ```bash
+  mkdir -p directoy1/directory2/drectory3
+  ```
+
+- Diplay the tree structure of the directory  
+  ```bash
+  tree <directory_name>
+  ```
+  
+- Display the top lines of the files  
+  ```bash
+  head <filename>
+  ```
+  
+- Display only top n number of lines (like top 5)  
+  ```bash
+  head -n 5 <filename>
+  ```
+  
+- Display the botthom lines of the files   
+  ```bash
+  tail <filename>
+  ```
+  
+- Display only last n number of lines (like last 5)  
+  ```bash
+  tail -n 5 <filename>
+  ```
+
+- View file in Scroll down mode  
+  ```bash
+  more <filename>
+  ```
+
+- View file in Scroll up/down mode   
+  ```bash
+  less <filename>
+  ```
+  
+- Find the Number of lines,words and lines in a file   
+  ```bash
+  wc <filename>
+  ```
+
+- Find only Number of lines in a file then use options( -l line , -w word, -c character) 
+  ```bash
+  wc -l <filename>
+  ```
+  
 
 
 
