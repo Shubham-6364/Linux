@@ -3,12 +3,15 @@
   - combining multiple files into a single archieve flie for easier storage, transfer or backup.
 - compress a file using tar
   ```
-  tar -cvf <nameoftarfile.tar> <path of directory>
+  tar -cvf <nameoftarfile.tar> <path of source directory>
   ```
+  (c- create, v- verbos, f- file)
 - Extract data from tar file
   ```
   tar -xvf <tarfilename.tar>
   ```
+  (x-extract)
+  
 - Extract data on specific path
   ```
   tar -c <destination path> -xcf <tarfilename.tar>
