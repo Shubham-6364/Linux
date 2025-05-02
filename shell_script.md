@@ -1,4 +1,4 @@
-## Shell_script
+# # Shell script
   Shell scripting is like writing a recipe for your computer to follow automatically. Instead of typing commands one by one, you put them in a file (script) so your computer can execute them all at once.
 # Think of it like this:
   Shell = The "interpreter" that understands your commands (like bash on Linux/Mac)
@@ -22,7 +22,8 @@ echo "Hello World!"
 make the file executable by giving permission 
 chmod +x first-script.sh
 
-methods to execute the shell script 
+Methods to execute the shell script
+
 first
 ```
 bash first-script.sh
@@ -73,17 +74,17 @@ mkdir $RRR 2> /dev/null
 tar -cvf $RRR/backup_new.tar $NNN
 ```
 
-# Example-5 Getting an input from the user and create a backup of directory and store locally, and remote servers
-# Generate public and private key pair
+# Example-5 Getting an input from the user and create a backup of filees & directory and transfer to remote servers
+  - Generate public and private key pair
 ```
 ssh-keygen
 ```
-# copy the public key to guest server
-# Enter the password to confirm the copy
+  - copy the public key to guest server
+  - Enter the password to confirm the copy
 ```
 ssh-copy-id user@ipaddress
 ```
-- NOW YOU CAN REMOTE LOGIN WITHOUT PASSWORD 
+  - NOW YOU CAN REMOTE LOGIN WITHOUT PASSWORD 
 
 vim backup-method.sh
 ```
