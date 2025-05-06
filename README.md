@@ -22,7 +22,7 @@ Linux follows a **modular design**:
 | **Shell** | Command-line interface (Bash, Zsh) |
 | **Applications** | GUI apps, servers, utilities |
 
-![Linux Architecture Diagram](https://www.guru99.com/images/1/093019_0714_LinuxArchite1.png)
+![image](https://github.com/user-attachments/assets/b6c143a7-8971-44bb-8490-e58a0e089dda)
 
 ---
 
